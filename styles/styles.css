@@ -32,8 +32,8 @@ nav{
 .bg-pic{
   background-image: url(../Images/Hero-bg.png);
   background-repeat: no-repeat;
-  height: 700px;
-  width: 1440px;
+  background-size: 100% 100%;
+     min-height: 700px;
   align-items: center;
 }
 nav h3{
