@@ -10,14 +10,12 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: bolder;
-  font-size: 34px;
   color: #4E47FF;
 }
 
-.header{
-  
+.header nav h3{
+  font-weight: bold;
+  font-size: 34px;
 }
 nav{
   display: flex;
@@ -84,7 +82,7 @@ section div ul{
   color: #252432;
 }
 .section-description{
-  font-weight: 600 ;
+  font-weight: 400 ;
   font-size: 24px;
   color:rgba(37, 36, 50, 0.5);
 }
@@ -98,4 +96,42 @@ section div ul{
   width: 403px;
   height: 328px;
   border-radius: 48px;
+}
+
+/* productive user styles */
+
+.productive-user-container{
+  display: flex;
+  justify-content: space-around;
+}
+.productive-user-title{
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+}
+
+.productive-user{
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  padding: 50px 142px;
+  height: 306px;
+  margin: 116px 159px 137px 141px;
+}
+.h1-font{
+  font-weight: bold;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+.productive-user-subtitle{
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 0px;
+}
+.productive-user-section{
+  width: 180px;
+  height: 121px;
+  text-align: center;
+  gap: 0px;
 }
