@@ -17,21 +17,22 @@
   font-weight: bold;
   font-size: 34px;
 }
+/* nav styles */
 nav{
   display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 150px;
-    padding: 0 50px;
-    width: 1140px;
-    height: 151px;
     gap: auto;
+}
+.nav-container{
+  justify-content: space-between;
 }
 .bg-pic{
   background-image: url(../Images/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-     min-height: 700px;
+  height: 700px;
   align-items: center;
 }
 nav h3{
@@ -56,14 +57,14 @@ nav a{
 .banner{
   text-align: center;
   margin-bottom: 152px;
+  justify-content: center;
 }
 .banner-title{
   font-weight: bold;
   font-size: 65px;
   width: 905px;
-  margin-left:267.5px ;
   height:auto ;
-  justify-items: center;
+  text-align: center;
 }
 
 
@@ -134,4 +135,84 @@ section div ul{
   height: 121px;
   text-align: center;
   gap: 0px;
+}
+
+/* review section style */
+.testimonial-section{
+  width: 1140px;
+  height: 342px;
+  gap: 50px;
+  align-items: center;
+  margin:237px 150px ;
+}
+.testimonial-container-main{
+  row-gap: 20px;
+}
+.testimonial-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 14px;
+}
+.review-title{
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+  text-align: center;
+}
+.review-stars{
+  display: flex;
+  margin-bottom: 20px;
+}
+.testimonial-card {
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.stars {
+  color: #FFC107; /* gold color for stars */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.quote {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(30, 30, 30, 1);
+  margin: 10px 0 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-size: 14px;
+  font-weight: strong;
+  color: rgba(117, 117, 117, 1);
+}
+
+.review-date {
+  font-size: 12px;
+  color:rgba(179, 179, 179, 1);
 }
